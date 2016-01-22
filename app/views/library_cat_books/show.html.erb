@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Bookname:</strong>
+  <%= @library_cat_book.bookname %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @library_cat_book.author %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @library_cat_book.category %>
+</p>
+
+<%= link_to 'Edit', edit_library_cat_book_path(@library_cat_book) %> |
+<%= link_to 'Back', library_cat_books_path %>
